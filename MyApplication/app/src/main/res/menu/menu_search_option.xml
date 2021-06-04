@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/mSearch"
+        android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item android:icon="@drawable/ic_baseline_more_vert_24"
+        app:showAsAction="always"
+        android:title="TODO">
+        <menu>
+            <item android:id="@+id/info"
+                android:title="Thông tin cá nhân"
+                android:icon="@drawable/ic_baseline_info_24"/>
+            <item android:id="@+id/change_pass"
+                android:title="Đổi mật khẩu"
+                android:icon="@drawable/ic_baseline_change_circle_24"/>
+            <item android:id="@+id/exit"
+                android:title="Đăng xuất"
+                android:icon="@drawable/ic_baseline_logout_24"/>
+        </menu>
+    </item>
+
+</menu>

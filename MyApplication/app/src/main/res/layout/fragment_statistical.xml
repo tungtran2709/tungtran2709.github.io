@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Statistical_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Statistical"
+            android:fontFamily="cursive"
+            android:textColor="@color/red"
+            android:textSize="50dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:text="TIỀN NHẬP KHO"
+            android:textSize="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/stat_count"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/save_stat_count_price"
+            android:text="Xuất thống kê"
+            android:textSize="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#FFB4FF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:drawableLeft="@drawable/ic_baseline_computer_24"
+            android:layout_gravity="center"
+            android:text=" - MÁY TÍNH"
+            android:textSize="25dp"
+            android:textColor="#F57D00"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/stat_computer"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/save_stat_computer"
+            android:text="Xuất thống kê"
+            android:textSize="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#FFB4FF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:drawableLeft="@drawable/ic_baseline_smartphone_24"
+            android:layout_gravity="center"
+            android:text=" - ĐIỆN THOẠI"
+            android:textSize="25dp"
+            android:textColor="#378C3C"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/stat_phone"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/save_stat_phone"
+            android:text="Xuất thống kê"
+            android:textSize="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#FFB4FF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:drawableLeft="@drawable/ic_baseline_merge_type_24"
+            android:layout_gravity="center"
+            android:text=" - PHỤ KIỆN"
+            android:textSize="25dp"
+            android:textColor="#008CD2"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.github.mikephil.charting.charts.BarChart
+            android:id="@+id/stat_access"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/save_stat_access"
+            android:text="Xuất thống kê"
+            android:textSize="10dp"
+            android:textColor="@color/black"
+            android:backgroundTint="#FFB4FF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="55dp"/>
+    </LinearLayout>
+
+</ScrollView>
